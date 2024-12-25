@@ -61,6 +61,8 @@ when ODIN_OS == .Windows {
 } else when ODIN_OS == .Linux {
     when DEBUG { foreign import sokol_gl_clib { "sokol_gl_linux_x64_gl_debug.a" } }
     else       { foreign import sokol_gl_clib { "sokol_gl_linux_x64_gl_release.a" } }
+} else when ODIN_OS == .Freestanding {
+
 } else {
     #panic("This OS is currently not supported")
 }
