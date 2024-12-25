@@ -81,6 +81,7 @@ foreign sokol_fetch_clib {
     unbind_buffer :: proc(h: Handle) -> rawptr ---
     cancel :: proc(h: Handle)  ---
     pause :: proc(h: Handle)  ---
+    continue_t :: proc(h: Handle)  ---
 }
 
 Log_Item :: enum i32 {
