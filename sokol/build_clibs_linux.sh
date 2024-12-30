@@ -38,7 +38,6 @@ build_lib_x64_release sokol_gl          gl/sokol_gl_linux_x64_gl_release SOKOL_G
 
 # x64 + GL + Debug
 build_lib_x64_debug sokol_log           log/sokol_log_linux_x64_gl_debug SOKOL_GLCORE
-build_lib_x64_debug sokol_imgui         imgui/sokol_imgui_linux_x64_gl_debug SOKOL_GLCORE
 build_lib_x64_debug sokol_fetch         fetch/sokol_fetch_linux_x64_gl_debug SOKOL_GLCORE
 build_lib_x64_debug sokol_gfx           gfx/sokol_gfx_linux_x64_gl_debug SOKOL_GLCORE
 build_lib_x64_debug sokol_app           app/sokol_app_linux_x64_gl_debug SOKOL_GLCORE
